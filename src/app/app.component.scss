@@ -25,156 +25,16 @@
         margin: 0 10px;
     }
 
-    &-image {
-        margin: auto;
-    }
-
-    &-title {
-        line-height: 40px;
-
-        .span {
-            display: block;
-        }
-    }
-
-    &-top {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-family: 'Rubik', sans-serif;
-        background: #5747EA;
-        border-radius: 16px;
-        padding: 10px 15px 24px 15px;
-
-        .item {
-            margin: 0;
-
-            &:first-of-type {
-                font-size: 15px;
-                font-weight: 400;
-                color: #BBC0FF;
-            }
-
-            &:last-child {
-                font-weight: 300;
-                font-size: 40px;
-                color: #FFFFFF;
-            }
-        }
-
-    }
-
-    &-bottom {
-        border-radius: 16px;
-    }
-
-    &-list {
-        list-style: none;
-        padding: 0 0 0 15px;
-        line-height: 2;
-    }
-
-    &-item {
-        font-family: 'Rubik', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        color: #7078C9;
-        cursor: pointer;
-
-        &:hover {
-            color: #FFFFFF;
-        }
-    }
 }
 
 .card {
-
     width: 19%;
-    height: 199px;
-    background: #FF8B64;
-    border-radius: 16px;
-    position: relative;
-    margin: 15px 5px;
-
+    margin: 0 5px;
     &-wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         flex: 83.333%;
-    }
-
-    &-inner {
-        border-radius: 16px;
-        position: absolute;
-        top: 30px;
-        width: 100%;
-        background: #1C204B;
-        color: #FFFFFF;
-        font-family: 'Rubik', sans-serif;
-        padding: 15px 0;
-
-        &-top {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 18px;
-            font-weight: 500;
-            padding: 0 15px;
-            margin-bottom: 20px;
-
-            .category {
-                font-family: 'Rubik', sans-serif;
-                font-size: 18px;
-                color: #FFFFFF;
-                font-weight: 500;
-                margin: 0;
-                line-height: 1.8;
-            }
-        }
-
-        &-bottom {
-            display: flex;
-            align-items: flex-end;
-            padding: 0 15px;
-
-            .left {
-                font-family: 'Rubik', sans-serif;
-                font-size: 12px;
-                color: #FFFFFF;
-                font-weight: 500;
-
-                .store, .qty {
-                    margin: 0;
-                    padding: 0;
-                }
-
-                .qty {
-                    text-align: center;
-                }
-            }
-
-            .right {
-
-                .price {
-                    font-family: 'Rubik', sans-serif;
-                    font-size: 39px;
-                    color: #FFFFFF;
-                    font-weight: 300;
-                    margin: 15px 0;
-                }
-
-                .description {
-                    font-family: 'Rubik', sans-serif;
-                    font-size: 12px;
-                    color: #BBC0FF;
-                    font-weight: 400;
-                    margin: 0;
-                    padding: 0;
-
-                }
-            }
-        }
     }
 
 }
@@ -185,38 +45,9 @@
         flex-direction: column;
     }
 
-    .left-list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .left-image {
-        width: 100px;
-    }
-
-    .left-top {
-        flex-direction: row;
-        align-items: center;
-        padding: 15px 54px 15px 0;
-    }
-
     .left-wrapper {
         margin: 15px auto;
         width: 95%;
-    }
-
-    .left-top .item:last-child {
-        font-size: 24px;
-    }
-
-    .left-title .span {
-        display: inline;
-        margin: 0 8px;
-    }
-
-    .left-title {
-        line-height: normal;
     }
 
     .card-wrapper {
