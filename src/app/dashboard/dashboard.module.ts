@@ -4,12 +4,14 @@ import {DashboardRoutingModule} from "./dashboard-routing.module";
 import {CardComponent} from "./card/card.component";
 import {MainCardComponent} from "./main-card/main-card.component";
 import {CommonModule} from "@angular/common";
+import {BookMarkDirective} from "../shared/directives/book-mark.directive";
 
 @NgModule({
     declarations: [
         HomeComponent,
         CardComponent,
-        MainCardComponent
+        MainCardComponent,
+        BookMarkDirective
     ],
     imports: [
         CommonModule,

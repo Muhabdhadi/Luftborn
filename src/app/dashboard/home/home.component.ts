@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {DashboardService} from "../dashboard.service";
-import {ProductInterface} from "../product.interface";
+import {DashboardService} from "../services/dashboard.service";
+import {ProductInterface} from "../interfaces/product.interface";
 
 @Component({
     selector: 'app-home',
