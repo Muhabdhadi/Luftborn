@@ -82,3 +82,39 @@
     }
 
 }
+
+@media (max-width: 576px) {
+    .card {
+        height: 160px;
+    }
+
+    .card-inner-top {
+        margin-bottom: 0;
+    }
+
+    .card-inner-bottom {
+        .right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .price, .description {
+                flex: 50%
+            }
+
+            .description {
+                text-align: right;
+            }
+
+            .price {
+                text-align: left;
+            }
+        }
+
+        .left {
+            display: none;
+        }
+
+    }
+
+}
