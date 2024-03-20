@@ -1,21 +1,29 @@
 .page {
     &-wrapper {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    &-content {
+        width: 90%;
+        margin: auto;
+        display: flex;
         flex-direction: row;
         justify-content: center;
-        //align-items: center;
-        height: 100%;
     }
 }
 .left {
     &-wrapper {
         background: #1C204B;
         border-radius: 16px;
-        margin-right: 15px;
+        flex: 16.333%;
+        box-sizing: border-box;
+        margin: 0 10px;
     }
 
     &-image {
-        width: 65%;
         margin: auto;
     }
 
@@ -79,28 +87,29 @@
 
 .card {
 
-    width: 255px;
+    width: 19%;
     height: 199px;
     background: #FF8B64;
     border-radius: 16px;
     position: relative;
-    margin: 0 15px;
+    margin: 15px 5px;
 
     &-wrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        flex: 83.333%;
     }
 
     &-inner {
         border-radius: 16px;
         position: absolute;
         top: 30px;
-        width: 255px;
+        width: 100%;
         background: #1C204B;
         color: #FFFFFF;
         font-family: 'Rubik', sans-serif;
-        padding: 24px 0;
+        padding: 15px 0;
 
         &-top {
             display: flex;
