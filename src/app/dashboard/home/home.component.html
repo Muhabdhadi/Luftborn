@@ -13,31 +13,7 @@
         <div class="card-wrapper">
 
             <!-- Card -->
-            <app-card class="card"></app-card>
-            <!-- Card -->
-            <app-card class="card"></app-card>
-            <!-- Card -->
-            <app-card class="card"></app-card>
-            <!-- Card -->
-            <app-card class="card"></app-card>
-            <!-- Card -->
-            <app-card class="card"></app-card>
-            <!-- Card -->
-            <app-card class="card"></app-card>
-
-            <!-- Card -->
-            <app-card class="card"></app-card>
-
-            <!-- Card -->
-            <app-card class="card"></app-card>
-
-            <!-- Card -->
-            <app-card class="card"></app-card>
-
-            <!-- Card -->
-            <app-card class="card"></app-card>
-
-
+            <app-card *ngFor="let product of products" class="card" [product]="product"></app-card>
 
         </div>
 
