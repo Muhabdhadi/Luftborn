@@ -34,6 +34,7 @@
                 font-weight: 300;
                 font-size: 40px;
                 color: #FFFFFF;
+                letter-spacing: 10px;
             }
         }
 
@@ -98,4 +99,14 @@
         width: 100px;
     }
 
+}
+
+@media (max-width: 576px) {
+
+    .left-top .item {
+        line-height: normal;
+    }
+    .left-title .item:last-child {
+        letter-spacing: normal;
+    }
 }
