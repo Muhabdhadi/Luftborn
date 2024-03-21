@@ -4,7 +4,6 @@
     }
 
     &-title {
-        line-height: 40px;
 
         .span {
             display: block;
@@ -18,15 +17,17 @@
         font-family: 'Rubik', sans-serif;
         background: #5747EA;
         border-radius: 16px;
-        padding: 10px 15px 24px 15px;
+        padding: 10px 15px 12px 15px;
 
         .item {
             margin: 0;
+            line-height: 51px;
 
             &:first-of-type {
                 font-size: 15px;
                 font-weight: 400;
                 color: #BBC0FF;
+                line-height: 28px;
             }
 
             &:last-child {
@@ -44,8 +45,8 @@
 
     &-list {
         list-style: none;
-        padding: 0 0 0 15px;
-        line-height: 2;
+        padding: 0 0 0 30px;
+        line-height: 41px;
     }
 
     &-item {
